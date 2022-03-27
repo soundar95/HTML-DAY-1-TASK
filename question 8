@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" cellspacing="5" cellpadding="10">
+      <caption style="text-align: center">
+        <b>Health chart</b>
+      </caption>
+      <tr>
+        <td rowspan="2">State of health</td>
+        <td colspan="2">Fasting value</td>
+        <td>After eating</td>
+      </tr>
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 hours after eating</td>
+      </tr>
+      <tr>
+          <td>Healthy</td>
+<td>70</td>
+<td>100</td>
+<td>less than 140</td>
+      </tr>
+      <tr>
+          <td>Pre-diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>14to 200</td>
+      </tr>
+      <tr>
+          <td>diabetes</td>
+          <td>more than 126</td>
+          <td>n/a</td>
+          <td>more than 200</td>
+      </tr>
+    </table>
+  </body>
+</html>
