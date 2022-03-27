@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border:2px solid black; width:430px">
+    <table cellspacing="0" cellpadding="5">
+        <caption style="background-color:red">Yes! I want to subscribe to <i>Mag-O-Zine</i></caption>
+    <form action="#">
+        <tr>
+            <td>
+         <input type="text" name="fname" placeholder="enter first name"><br>
+         first name
+</td>
+<td>
+      <input type="text" name="lname" placeholder="enter last name"><br>
+      last name 
+</td>
+</tr>
+<tr>
+    <td>
+<input type="address" name="address" placeholder="enter address"><br>
+address
+</td>   
+</tr>
+    <td>
+<input type="address" style="width: 50px;" name="city" ><br>
+city
+</td> 
+<td>
+<input type="address" style="width: 50px;" name="state"> <br>
+state
+</td>  
+<td>
+    <input type="address" style="width: 50px;" name="zip"> <br>
+    zip
+    </td> 
+</tr>
+<tr>
+    <td>
+        subscribe for:<br>
+        <input type="checkbox" name="subscribe" value="Subscribe">1year($19.95)
+        
+    </td>
+    <td><br>
+        <input type="checkbox" name="subscribe" value="Subscribe">1year($35)
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+        send me more information about:
+    </td>
+</tr>
+<tr>
+    <td>
+        <input type="checkbox" name="information">computer-zine
+    </td>
+</tr>
+<tr>
+    <td>
+        <input type="checkbox" name="information">fishing-zine
+    </td>
+</tr>
+<tr>
+    <td>
+        <input type="checkbox" name="information">cat-o-zine
+    </td>
+</tr>
+</table>
+    </form>
+</div>
+</body>
+</html>
