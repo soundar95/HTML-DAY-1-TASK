@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend>All input methods</legend>
+                <label for="text">text box</label>
+                <input type="text" name="text" id="text" placeholder="enter your name"> <br> <br>
+                <label for="button">button</label>
+                <input type="button" name="button" id="button" value="button">  <br> <br>
+                <label for="checkbox">checkbox</label>
+                <input type="checkbox" name="checkbox" id="checkbox">  <br> <br>
+                <label for="color">color</label>
+                <input type="color" name="color" id="color"> <br> <br>
+                <label for="date">date</label>
+                <input type="date" name="date" id="datetime-local"> <br> <br>
+                <label for="datetime-local">datetime-local</label>
+                <input type="datetime-local" name="datetime-local" id="datetime-local"> <br> <br>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="abc@example.com"> <br> <br>
+                <label for="file">file</label>
+                <input type="file" name="file" id="file"> <br> <br>
+                <label for="image">image</label>
+                <input type="image" name="image" id="image"> <br> <br>
+                <label for="month">month</label>
+                <input type="month" name="month" id="month"> <br> <br>
+                <label for="number">number</label>
+                <input type="number" name="number" id="number" placeholder="Please enter some number"> <br> <br>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" placeholder="enter your password"> <br> <br>
+                <label for="radio">radio</label>
+                <input type="radio" name="radio" id="radio"> <br> <br>
+                <label for="range">range</label>
+                <input type="range" name="range" id="range"> <br> <br>
+                <label for="reset">reset</label>
+                <input type="reset" name="reset" id="reset"> <br> <br>
+                <label for="search">search</label>
+                <input type="search" name="search" id="search" placeholder="serch here"> <br> <br>
+                <label for="submit">submit</label>
+                <input type="submit" name="submit" id="submit"> <br> <br>
+                <label for="tel">tel</label>
+                <input type="tel" name="tel" id="tel" placeholder="Please enter your mobile num"> <br> <br>
+                <label for="text">text</label>
+                <input type="text" name="text" id="text" placeholder="Please enter some text"> <br> <br>
+                <label for="time">time</label>
+                <input type="time" name="time" id="time"> <br> <br>
+                <label for="url">url</label>
+                <input type="url" name="url" id="url" placeholder="Please enter URL here"> <br> <br>
+                <label for="week">week</label>
+                <input type="week" name="week" id="week"> <br> <br>
+            </fieldset>
+        </form>
+        </div>
+  </body>
+ </html>
+
+ 
